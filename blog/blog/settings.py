@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'django_filters',
     'users',
     'categories',
-    'posts'
+    'posts',
+    'coments'
 ]
 
 MIDDLEWARE = [
