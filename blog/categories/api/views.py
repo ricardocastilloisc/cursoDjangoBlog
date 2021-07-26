@@ -7,3 +7,5 @@ class CategoryApiViewSet(ModelViewSet):
     permission_classes = [IsAdminOrReadOnly]
     serializer_class = CategorySerializer
     queryset = Category.objects.all()
+    #cambiar la clave unica por el slug
+    lookup_field = 'slug'
